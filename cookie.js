@@ -2690,15 +2690,16 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         line-height: ${config.bannerStyle.description.lineHeight};
     }
 
-    .main-privacy-policy-link {
-        color: ${config.bannerStyle.linkColor};
-        text-decoration: none;
-        font-size: 13px;
-        font-weight: 500;
-        display: inline-block;
-        margin-bottom: 8px;
-        transition: color 0.2s ease;
-    }
+ .main-privacy-policy-link {
+  color: ${config.bannerStyle.linkColor} !important;
+  text-decoration: none !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  display: inline-block !important;
+  margin-bottom: 8px !important;
+  transition: color 0.2s ease !important;
+}
+
 
     .main-privacy-policy-link:hover {
         color: ${config.bannerStyle.linkHoverColor};

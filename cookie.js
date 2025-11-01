@@ -81,7 +81,7 @@ function isEEAVisitor() {
 
 const config = {
     // Domain restriction
-    allowedDomains: [],
+    allowedDomains: ['www.luxemassage.gr'],
     
     // Privacy policy URL (configurable)
     privacyPolicyUrl: 'https://www.luxemassage.gr/politiki-aporitou/', // Add your full privacy policy URL here

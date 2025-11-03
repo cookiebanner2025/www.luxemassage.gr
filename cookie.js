@@ -2723,7 +2723,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         border: none;
         flex: 1;
         letter-spacing: 0.2px;
-        text-transform: capitalize !important;
+       
 }
     }
 
@@ -3652,6 +3652,36 @@ function injectConsentHTML(detectedCookies, language = 'en') {
             padding: 8px 10px;
         }
     }
+
+
+
+
+
+    /* Force capitalize text for consent buttons */
+    .all-cookie-consent-buttons .cookie-btn,
+    .modal-buttons-container .cookie-btn {
+        text-transform: capitalize !important;
+        font-variant: normal !important;
+        letter-spacing: normal !important;
+    }
+
+    /* Specific button text styles */
+    #acceptAllBtn,
+    #rejectAllBtn,
+    #adjustConsentBtn,
+    #acceptAllSettingsBtn,
+    #rejectAllSettingsBtn,
+    #saveSettingsBtn {
+        text-transform: capitalize !important;
+    }
+
+
+
+
+
+
+
+    
     </style>`;
     
     document.body.insertAdjacentHTML('beforeend', html);

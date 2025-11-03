@@ -2728,12 +2728,12 @@ function injectConsentHTML(detectedCookies, language = 'en') {
 }
     }
 
-    .main-adjust-button {
-        background-color: ${config.buttonStyle.adjust.background};
-        color: ${config.buttonStyle.adjust.color};
-        border: ${config.buttonStyle.adjust.border};
-        
-    }
+ .main-adjust-button {
+    background-color: ${config.buttonStyle.adjust.background} !important;
+    color: ${config.buttonStyle.adjust.color} !important;
+    border: ${config.buttonStyle.adjust.border} !important;
+}
+
 
     .main-adjust-button:hover {
         background-color: ${config.buttonStyle.adjust.hover.background};

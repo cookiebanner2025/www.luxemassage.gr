@@ -2723,6 +2723,8 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         border: none;
         flex: 1;
         letter-spacing: 0.2px;
+        text-transform: capitalize !important;
+}
     }
 
     .main-adjust-button {

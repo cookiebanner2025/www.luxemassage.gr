@@ -2729,9 +2729,9 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     }
 
  .main-adjust-button {
-    background-color: ${config.buttonStyle.adjust.background} !important;
-    color: ${config.buttonStyle.adjust.color} !important;
-    border: ${config.buttonStyle.adjust.border} !important;
+    background-color: ${config.buttonStyle.adjust.background};
+    color: ${config.buttonStyle.adjust.color};
+    border: ${config.buttonStyle.adjust.border};
 }
 
 
@@ -2742,6 +2742,25 @@ function injectConsentHTML(detectedCookies, language = 'en') {
       
         
     }
+
+
+    /* Force adjust button colors */
+    .main-adjust-button {
+        background-color: #f8f9fa !important;
+        color: #333333 !important;
+        border: 1px solid #e0e0e0 !important;
+    }
+
+    .main-adjust-button:hover {
+        background-color: #f0f2f5 !important;
+        color: #333333 !important;
+        transform: translateY(-1px) !important;
+    }
+
+
+
+
+
 
     .main-reject-btn {
         background-color: ${config.buttonStyle.reject.background};

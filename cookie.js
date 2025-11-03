@@ -2723,6 +2723,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         border: none;
         flex: 1;
         letter-spacing: 0.2px;
+        text-transform: capitalize !important;
        
 }
     }
@@ -2731,14 +2732,14 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         background-color: ${config.buttonStyle.adjust.background};
         color: ${config.buttonStyle.adjust.color};
         border: ${config.buttonStyle.adjust.border};
-        text-transform: capitalize !important;
+        
     }
 
     .main-adjust-button:hover {
         background-color: ${config.buttonStyle.adjust.hover.background};
         color: ${config.buttonStyle.adjust.hover.color};
         transform: ${config.buttonStyle.adjust.hover.transform};
-        text-transform: capitalize !important;
+      
         
     }
 

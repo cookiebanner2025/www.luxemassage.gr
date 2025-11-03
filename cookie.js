@@ -2731,12 +2731,14 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         background-color: ${config.buttonStyle.adjust.background};
         color: ${config.buttonStyle.adjust.color};
         border: ${config.buttonStyle.adjust.border};
+        text-transform: capitalize !important;
     }
 
     .main-adjust-button:hover {
         background-color: ${config.buttonStyle.adjust.hover.background};
         color: ${config.buttonStyle.adjust.hover.color};
         transform: ${config.buttonStyle.adjust.hover.transform};
+        text-transform: capitalize !important;
         
     }
 
@@ -3652,30 +3654,6 @@ function injectConsentHTML(detectedCookies, language = 'en') {
             padding: 8px 10px;
         }
     }
-
-
-
-
-
-    /* Force capitalize text for consent buttons */
-    .all-cookie-consent-buttons .cookie-btn,
-    .modal-buttons-container .cookie-btn {
-        text-transform: capitalize !important;
-        font-variant: normal !important;
-        letter-spacing: normal !important;
-    }
-
-    /* Specific button text styles */
-    #acceptAllBtn,
-    #rejectAllBtn,
-    #adjustConsentBtn,
-    #acceptAllSettingsBtn,
-    #rejectAllSettingsBtn,
-    #saveSettingsBtn {
-        text-transform: capitalize !important;
-    }
-
-
 
 
 
